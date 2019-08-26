@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ApplicationService\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VideoApplication.Core.Entity\VideoApplication.Core.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
